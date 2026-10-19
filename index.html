@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PhishGuard | Cyber Safety Center</title>
+
+    <meta name="description"
+          content="Learn how to identify phishing attacks, recognize suspicious emails, and protect yourself online.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="#home" class="brand">
+        <span class="brand-icon">⬡</span>
+        <span>Phish<span class="accent">Guard</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false">☰</button>
+
+    <nav id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#learn">Learn</a>
+        <a href="#detect">Detection Lab</a>
+        <a href="#tips">Safety Tips</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+
+    <a href="#quiz" class="nav-button">Test Your Skills ↗</a>
+</header>
+
+
+<main>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero section" id="home">
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                <span class="status-dot"></span>
+                CYBERSECURITY AWARENESS PROJECT
+            </div>
+
+            <h1>
+                Don't take the bait.<br>
+                <span class="gradient-text">Spot the phish.</span>
+            </h1>
+
+            <p class="hero-description">
+                One suspicious click can compromise your digital life.
+                Learn to recognize phishing attacks, identify warning signs,
+                and build safer online habits.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#detect" class="button primary">
+                    Explore Detection Lab →
+                </a>
+
+                <a href="#learn" class="button secondary">
+                    Learn About Phishing
+                </a>
+            </div>
+
+            <div class="hero-note">
+                <span>✓</span> Educational project
+                <span>✓</span> Interactive learning
+                <span>✓</span> Cyber safety awareness
+            </div>
+
+        </div>
+
+
+        <div class="hero-visual">
+
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+
+            <div class="shield-card">
+
+                <div class="shield-symbol">⬡</div>
+
+                <div class="shield-status">
+                    <span class="status-dot"></span>
+                    SECURITY AWARENESS
+                </div>
+
+                <h2>Think Before<br>You Click</h2>
+
+                <p>
+                    Verify the sender. Inspect the link.
+                    Protect your information.
+                </p>
+
+                <div class="mini-stats">
+                    <div>
+                        <strong>01</strong>
+                        <span>Identify</span>
+                    </div>
+
+                    <div>
+                        <strong>02</strong>
+                        <span>Verify</span>
+                    </div>
+
+                    <div>
+                        <strong>03</strong>
+                        <span>Protect</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="floating-card float-top">
+                <span class="float-icon warning">!</span>
+                <div>
+                    <strong>Suspicious Activity?</strong>
+                    <small>Pause and verify</small>
+                </div>
+            </div>
+
+            <div class="floating-card float-bottom">
+                <span class="float-icon safe">✓</span>
+                <div>
+                    <strong>Stay Protected</strong>
+                    <small>Make informed decisions</small>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- LEARNING STATISTICS -->
+
+    <section class="stats section">
+
+        <div class="stat-card">
+            <span class="stat-icon">🎣</span>
+            <div>
+                <h3>4+</h3>
+                <p>Phishing Types Covered</p>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <span class="stat-icon">🔎</span>
+            <div>
+                <h3>5</h3>
+                <p>Detection Challenges</p>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <span class="stat-icon">🛡️</span>
+            <div>
+                <h3>6</h3>
+                <p>Security Practices</p>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <span class="stat-icon">🧠</span>
+            <div>
+                <h3>5</h3>
+                <p>Quiz Questions</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT PHISHING -->
+
+    <section class="section content-section" id="learn">
+
+        <div class="section-heading">
+            <span class="eyebrow">01 / UNDERSTAND THE THREAT</span>
+
+            <h2>What is <span class="accent">Phishing?</span></h2>
+
+            <p>
+                Phishing is a type of cyberattack in which criminals
+                impersonate trusted people or organizations to trick
+                victims into revealing sensitive information or taking
+                unsafe actions.
+            </p>
+        </div>
+
+
+        <div class="threat-grid">
+
+            <article class="info-card">
+                <div class="card-icon">📧</div>
+                <h3>Email Phishing</h3>
+                <p>
+                    Fraudulent emails pretend to come from trusted
+                    companies and may contain suspicious links or
+                    unexpected attachments.
+                </p>
+                <span class="tag">EMAIL-BASED</span>
+            </article>
+
+            <article class="info-card">
+                <div class="card-icon">🎯</div>
+                <h3>Spear Phishing</h3>
+                <p>
+                    Targeted messages use personal or professional
+                    details to make a scam appear more believable.
+                </p>
+                <span class="tag">TARGETED ATTACK</span>
+            </article>
+
+            <article class="info-card">
+                <div class="card-icon">📱</div>
+                <h3>Smishing</h3>
+                <p>
+                    Phishing through SMS or text messages, often
+                    involving fake delivery notices or account alerts.
+                </p>
+                <span class="tag">SMS-BASED</span>
+            </article>
+
+            <article class="info-card">
+                <div class="card-icon">☎️</div>
+                <h3>Vishing</h3>
+                <p>
+                    Voice calls are used to impersonate banks,
+                    technical support, or other trusted organizations.
+                </p>
+                <span class="tag">VOICE-BASED</span>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- DETECTION LAB -->
+
+    <section class="section detection-section" id="detect">
+
+        <div class="section-heading">
+            <span class="eyebrow">02 / INTERACTIVE LEARNING</span>
+
+            <h2>Phishing <span class="accent">Detection Lab</span></h2>
+
+            <p>
+                Examine these simulated messages and decide whether
+                each one looks suspicious or legitimate.
+            </p>
+        </div>
+
+
+        <div class="lab-layout">
+
+            <div class="message-list" id="messageList"></div>
+
+            <div class="message-panel" id="messagePanel">
+
+                <div class="panel-top">
+                    <span class="tag">MESSAGE INSPECTOR</span>
+                    <span class="panel-lock">🔍</span>
+                </div>
+
+                <div id="messageDetails">
+                    <div class="empty-state">
+                        <div class="empty-icon">✉</div>
+                        <h3>Select a message</h3>
+                        <p>
+                            Choose a simulated message on the left
+                            to inspect its warning signs.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="notice">
+            <span>ⓘ</span>
+            These examples are fictional educational simulations.
+            Never enter real passwords or personal information.
+        </div>
+
+    </section>
+
+
+    <!-- WARNING SIGNS -->
+
+    <section class="section content-section">
+
+        <div class="section-heading">
+            <span class="eyebrow">03 / RECOGNIZE THE RED FLAGS</span>
+
+            <h2>Warning signs you <span class="accent">shouldn't ignore</span></h2>
+
+            <p>
+                Phishing messages often use psychological pressure
+                to make people act before checking the facts.
+            </p>
+        </div>
+
+
+        <div class="warning-grid">
+
+            <article class="warning-card">
+                <span class="warning-number">01</span>
+                <h3>Urgent Threats</h3>
+                <p>
+                    Messages claim your account will be blocked
+                    unless you act immediately.
+                </p>
+            </article>
+
+            <article class="warning-card">
+                <span class="warning-number">02</span>
+                <h3>Suspicious Links</h3>
+                <p>
+                    A link may lead to an unrelated or misspelled
+                    domain instead of the expected website.
+                </p>
+            </article>
+
+            <article class="warning-card">
+                <span class="warning-number">03</span>
+                <h3>Unexpected Requests</h3>
+                <p>
+                    A sender requests passwords, verification codes,
+                    payment details, or confidential data.
+                </p>
+            </article>
+
+            <article class="warning-card">
+                <span class="warning-number">04</span>
+                <h3>Unusual Attachments</h3>
+                <p>
+                    Unexpected files may contain malicious content
+                    or lead to unsafe downloads.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECURITY TIPS -->
+
+    <section class="section tips-section" id="tips">
+
+        <div class="section-heading">
+            <span class="eyebrow">04 / PROTECT YOURSELF</span>
+
+            <h2>Build your <span class="accent">security habits</span></h2>
+
+            <p>
+                A few careful decisions can significantly reduce
+                the risk of falling for phishing.
+            </p>
+        </div>
+
+
+        <div class="tips-grid">
+
+            <article class="tip-card">
+                <span>🔗</span>
+                <div>
+                    <h3>Inspect Links</h3>
+                    <p>
+                        Check the destination domain before opening
+                        a link. Navigate to important services using
+                        their official app or website.
+                    </p>
+                </div>
+            </article>
+
+            <article class="tip-card">
+                <span>🔑</span>
+                <div>
+                    <h3>Use Strong Passwords</h3>
+                    <p>
+                        Use unique passwords for different accounts
+                        and consider a trusted password manager.
+                    </p>
+                </div>
+            </article>
+
+            <article class="tip-card">
+                <span>🛡️</span>
+                <div>
+                    <h3>Enable MFA</h3>
+                    <p>
+                        Use multi-factor authentication to add
+                        another layer of account protection.
+                    </p>
+                </div>
+            </article>
+
+            <article class="tip-card">
+                <span>📨</span>
+                <div>
+                    <h3>Verify the Sender</h3>
+                    <p>
+                        Confirm unexpected requests through a
+                        separate, trusted communication channel.
+                    </p>
+                </div>
+            </article>
+
+            <article class="tip-card">
+                <span>🔄</span>
+                <div>
+                    <h3>Update Your Devices</h3>
+                    <p>
+                        Keep your operating system, browser,
+                        and security software updated.
+                    </p>
+                </div>
+            </article>
+
+            <article class="tip-card">
+                <span>🚨</span>
+                <div>
+                    <h3>Report Suspicious Messages</h3>
+                    <p>
+                        Use your email provider's phishing-reporting
+                        feature or contact your organization's IT team.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUIZ -->
+
+    <section class="section quiz-section" id="quiz">
+
+        <div class="section-heading">
+            <span class="eyebrow">05 / TEST YOUR KNOWLEDGE</span>
+
+            <h2>Cyber Safety <span class="accent">Challenge</span></h2>
+
+            <p>
+                Answer five questions to check your understanding
+                of phishing awareness and online safety.
+            </p>
+        </div>
+
+
+        <div class="quiz-card">
+
+            <div class="quiz-top">
+                <span id="questionCounter">QUESTION 1 OF 5</span>
+                <span id="scorePreview">Score: 0</span>
+            </div>
+
+            <div class="progress-track">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <div id="quizContent"></div>
+
+            <div id="quizFeedback" class="quiz-feedback"
+                 aria-live="polite"></div>
+
+            <div class="quiz-actions">
+                <button id="nextQuestion" class="button primary"
+                        disabled>
+                    Check Answer →
+                </button>
+            </div>
+
+            <div id="quizResult" class="quiz-result" hidden></div>
+
+            <button id="restartQuiz" class="button secondary"
+                    hidden>
+                ↻ Restart Quiz
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- FINAL MESSAGE -->
+
+    <section class="section final-cta">
+
+        <div class="cta-symbol">🛡️</div>
+
+        <span class="eyebrow">YOUR DIGITAL SAFETY MATTERS</span>
+
+        <h2>Pause. Verify. <span class="accent">Stay Safe.</span></h2>
+
+        <p>
+            Cybersecurity begins with awareness.
+            Think critically before you click.
+        </p>
+
+        <a href="#home" class="button primary">Back to Top ↑</a>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <a href="#home" class="brand">
+        <span class="brand-icon">⬡</span>
+        <span>Phish<span class="accent">Guard</span></span>
+    </a>
+
+    <p>
+        Cybersecurity Awareness Project |
+        CodSoft Cyber Security Internship
+    </p>
+
+    <p class="footer-note">
+        Created for educational purposes. This website does not
+        collect passwords, personal information, or user credentials.
+    </p>
+
+    <p class="copyright">
+        © <span id="currentYear"></span> PhishGuard. Educational project.
+    </p>
+
+</footer>
+
+</body>
+</html>

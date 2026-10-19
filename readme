@@ -1,0 +1,82 @@
+# PhishGuard — Phishing Awareness & Cyber Safety
+
+## Project Overview
+
+PhishGuard is an educational cybersecurity awareness website
+developed as part of the CodSoft Cyber Security Internship.
+
+The project teaches users how to identify phishing attempts,
+recognize suspicious messages, and follow safer online practices.
+
+## Objectives
+
+- Explain common phishing attacks.
+- Identify warning signs in suspicious messages.
+- Promote safe browsing and account protection.
+- Educate users about strong passwords and MFA.
+- Test cybersecurity knowledge through an interactive quiz.
+
+## Features
+
+1. Responsive cybersecurity-themed interface.
+2. Information about four phishing attack types.
+3. Interactive phishing detection lab.
+4. Simulated email analysis and warning signs.
+5. Cybersecurity best practices.
+6. Interactive quiz with score calculation.
+7. Quiz explanations and restart functionality.
+8. Mobile navigation.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Project Structure
+
+Task1_Phishing_Awareness/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+## How to Run
+
+1. Download or clone this repository.
+2. Open the project folder.
+3. Open index.html in a modern web browser.
+4. Navigate through the sections.
+5. Test the Detection Lab and Cyber Safety Quiz.
+
+No backend or external JavaScript library is required.
+
+## Testing
+
+The following features should be tested:
+
+- Navigation links.
+- Responsive layout.
+- Detection Lab message selection.
+- Display of message warning signs.
+- Quiz answer selection.
+- Correct and incorrect answer feedback.
+- Final quiz score.
+- Quiz restart functionality.
+
+## Security and Privacy
+
+This project is designed for education and awareness.
+
+- It does not collect passwords or credentials.
+- It does not send emails.
+- It does not perform real phishing attacks.
+- Its message examples are fictional simulations.
+
+## Internship
+
+Program: CodSoft Cyber Security Internship
+
+Project: Phishing Awareness Program
+
+Purpose: Cybersecurity education and phishing prevention.
